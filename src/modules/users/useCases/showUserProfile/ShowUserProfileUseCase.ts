@@ -4,7 +4,6 @@ import { IUsersRepository } from "../../repositories/IUsersRepository";
 interface IRequest {
     user_id: string;
 }
-
 class ShowUserProfileUseCase {
     constructor(private usersRepository: IUsersRepository) {}
 
